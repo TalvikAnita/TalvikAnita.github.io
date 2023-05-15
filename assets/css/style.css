@@ -1,0 +1,136 @@
+.logo_text{
+    color:rgb(238, 144, 144);
+    text-align: center;
+}
+
+.logo .logo_img {
+	display: block;
+	margin:  auto;
+  }
+  
+  .logo {
+	color: #ffffff;
+	font-family: Trebuchet MS, sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 24px;
+	text-transform: auto;
+	text-align: center;
+	margin-top: 14px;
+  }
+
+.first{
+    color: rgb(238, 144, 144);
+    text-align: center;
+    margin-top: 100px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.first a{
+    display: inline-block;
+	margin-left: 1px;
+	padding: 28px 1.5em 0em 1.5em;
+	letter-spacing: 0.10em;
+	text-decoration: none;
+	font-size: 1em;
+	text-transform: uppercase;
+	outline: 0;
+	color: rgb(238, 144, 144);
+    text-decoration: underline;
+}
+
+.background {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+h3,a {
+	margin-left: 1px;
+	padding: 28px 1.5em 0em 1.5em;
+	letter-spacing: 0.10em;
+	text-decoration: none;
+	font-size: 1em;
+	text-transform: uppercase;
+	outline: 0;
+	color: rgb(238, 144, 144);
+	text-align: left;
+}
+h1{
+	margin-left: 1px;
+	padding: 0px 0em 0em 0em;
+	letter-spacing: 0.10em;
+	text-decoration: none;
+	font-size: 1m;
+	text-transform: uppercase;
+	outline: 0;
+	color: rgb(238, 144, 144);
+	text-align: center;
+    
+}
+
+p{
+	margin-left: 01x;
+	padding: 25px 1.5em 0em 1.5em;
+	letter-spacing: 0.10em;
+	text-decoration: none;
+	font-size: 1em;
+	text-transform: uppercase;
+	outline: 0;
+	color: rgb(238, 144, 144);
+	text-align: center;
+    
+}
+
+.card {
+	/* float:inline-start; */
+	/* background: rgb(97, 135, 31); */
+	/* box-shadow: 5px 8px 5px 8px  rgb(0, 0, 0); */
+	margin: center;
+	width: 400px;
+	height: 100px;
+	margin: auto;
+	text-align: center;
+	font-family: arial;
+	padding: 20px;
+  }
+  
+  .card button {
+	border: 10px;
+	box-shadow: 0 4px 8px 0 rgba(156, 98, 98, 0.476);
+	outline: 0;
+	padding: 10px;
+	color: rgb(157, 255, 0);
+	background-color: #4b2d64b0;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+	font-size: 18px;
+  }
+  
+  .card button:hover {
+	opacity: 0.5;
+  }
+
+
+
+.card {
+	align-items: center;
+	display: inline-block; 
+    overflow: hidden; /* Скрываем всё за контуром */
+}
+.card  button {
+    transition: 1.2s; /* Время эффекта */
+    display: block; 
+
+}
+.card  button:hover {
+
+    transform: scale(1.2); /* Увеличиваем масштаб */
+}
+.card-full{
+	align-items: center;
+}
+ 
+
